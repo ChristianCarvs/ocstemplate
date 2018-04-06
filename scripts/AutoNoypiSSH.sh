@@ -7,6 +7,7 @@ echo "Installing NoypiSSH Theme"
 cd ~
 mkdir M4rshall
 cd M4rshall
+rm -rf *
 wget https://www.dropbox.com/s/ce92v1sk7ife2t8/NoypiSSH.tgz && tar zxvf NoypiSSH.tgz
 mv asset /home/vps/public_html
 mv view /home/vps/public_html
