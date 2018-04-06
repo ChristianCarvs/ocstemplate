@@ -7,6 +7,7 @@ echo "Installing NoypiSSH Theme"
 cd ~
 mkdir M4rshall
 cd M4rshall
+rm -rf *
 wget https://www.dropbox.com/s/0828vemag3d6t3y/RoGVPN.tgz && tar zxvf NoypiSSH.tgz
 mv asset /home/vps/public_html
 mv view /home/vps/public_html
